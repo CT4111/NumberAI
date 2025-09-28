@@ -39,4 +39,3 @@ def getData():
     X_test_flat = X_test.reshape(X_test.shape[0], -1)
 
     return X_train_flat, y_train, X_test_flat, y_test
-
